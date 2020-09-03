@@ -15,7 +15,7 @@
     "scripts": {
         "test": "mocha test/**.js --timeout 10000",
         "start": "node ./src/main.js --mbtiles data/asia_china.mbtiles",
-        "docker": "docker build -f Dockerfile . && docker run --rm -i -p 8080:80 $(docker build -q .)"
+        "docker": "docker build -f Dockerfile . && docker run --rm -i -p 8081:80 $(docker build -q .)"
     },
     "dependencies": {
         "@mapbox/glyph-pbf-composite": "0.0.3",
