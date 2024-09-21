@@ -30,7 +30,7 @@
         "commander": "4.1.1",
         "cors": "2.8.5",
         "esm": "3.2.25",
-        "express": "4.19.2",
+        "express": "4.20.0",
         "handlebars": "4.7.3",
         "http-shutdown": "1.2.2",
         "morgan": "1.9.1",
